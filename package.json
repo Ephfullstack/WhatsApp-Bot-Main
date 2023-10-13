@@ -1,0 +1,27 @@
+{
+	"name": "whatsapp-base",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"start": "NODE_ENV=development ts-node app/index.ts",
+		"prod": "NODE_ENV=production ts-node app/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"mongoose": "^7.3.1",
+		"openai": "^4.11.1",
+		"qrcode-terminal": "^0.12.0",
+		"ts-node": "^10.9.1",
+		"tsconfig-paths": "^4.2.0",
+		"whatsapp-web.js": "https://github.com/Julzk/whatsapp-web.js/tarball/jkr_hotfix_7"
+	},
+	"devDependencies": {
+		"@types/qrcode-terminal": "^0.12.0",
+		"chai": "^4.3.10",
+		"mocha": "^10.2.0"
+	}
+}
